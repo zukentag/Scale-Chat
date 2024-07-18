@@ -1,0 +1,27 @@
+.input-container {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 10px;
+  padding: 1rem;
+}
+.chat-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 1rem;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.input {
+  width: 80vw;
+  height: 2rem;
+  padding: 1rem;
+}
